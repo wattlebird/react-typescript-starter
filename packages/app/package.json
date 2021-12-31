@@ -1,0 +1,10 @@
+{
+    "name": "app",
+    "version": "0.1.0",
+    "main": "src/index.tsx",
+	"scripts": {
+		"start": "webpack-dev-server --open",
+		"build": "webpack --config ./webpack.config.prod.js"
+	},
+    "license": "MIT"
+}
