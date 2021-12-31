@@ -1,4 +1,5 @@
 import React from 'react'
+import Helper from 'component-helper'
 import './style.scss'
 
 const HomeTemplate: React.FC = () => {
@@ -17,6 +18,7 @@ const HomeTemplate: React.FC = () => {
 				</a>{' '}
 				to read instructions for production optimization
 			</h2>
+			<Helper />
 		</div>
 	)
 }
