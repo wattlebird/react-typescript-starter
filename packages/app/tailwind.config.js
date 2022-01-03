@@ -1,20 +1,10 @@
 module.exports = {
-	purge: {
-		enabled: false, // turn it to false in developement to have all tailwind classes
-		content: [
-			'./src/*.js',
-			'./src/*.jsx',
-			'./src/**/*.jsx',
-			'./src/**/*.js',
-			'./src/*.ts',
-			'./src/*.tsx',
-			'./src/**/*.tsx',
-			'./src/**/*.ts'
-		]
-	},
+	content: [
+		'./index.html',
+		'./src/**/*.{js,jsx,ts,tsx}'
+	],
 	theme: {
 		extend: {}
 	},
-	variants: {},
 	plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')]
 }
