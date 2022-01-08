@@ -28,7 +28,7 @@
 	"plugins": ["prettier"],
 	"rules": {
 		"prettier/prettier": ["error", { "endOfLine": "auto" }],
-		"no-var-requires": false,
+		"no-var-requires": "off",
 		"spaced-comment": "off",
 		"no-console": "warn",
 		"consistent-return": "off",
